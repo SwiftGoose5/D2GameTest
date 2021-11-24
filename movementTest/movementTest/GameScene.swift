@@ -5,8 +5,6 @@
 //  Created by Goose on 5/24/21.
 //
 
-// today we'll look at spritekit and how to move a player node whereever the mouse clicks, while also keeping the movement speed consistent, so that no matter the distance, the player will move at the same rate
-
 import SpriteKit
 import GameplayKit
 
@@ -16,6 +14,8 @@ class GameScene: SKScene {
     
     var player : SKSpriteNode = SKSpriteNode()
     var player2 : SKSpriteNode = SKSpriteNode()
+    
+    var shardParticle : SKEmitterNode = SKEmitterNode()
     
     var sceneCamera : SKCameraNode = SKCameraNode()
     
@@ -32,6 +32,9 @@ class GameScene: SKScene {
         player2 = SKSpriteNode(imageNamed: "player")
         player2.position = CGPoint(x: 50, y: 50)
         self.addChild(player2)
+        
+        shardParticle = SKEmitterNode(fileNamed: "IceShard")!
+        self.addChild(shardParticle)
         
         // Create shape node to use during mouse interaction
         let w = (self.size.width + self.size.height) * 0.01

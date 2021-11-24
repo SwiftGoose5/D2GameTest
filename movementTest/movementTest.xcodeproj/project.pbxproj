@@ -14,6 +14,7 @@
 		5295FE4A265C7F4E00AE007F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295FE49265C7F4E00AE007F /* ViewController.swift */; };
 		5295FE4C265C7F5300AE007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295FE4B265C7F5300AE007F /* Assets.xcassets */; };
 		5295FE4F265C7F5300AE007F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5295FE4D265C7F5300AE007F /* Main.storyboard */; };
+		52A84F1D274D6BC800D67103 /* IceShard.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52A84F1C274D6BC800D67103 /* IceShard.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5295FE4E265C7F5300AE007F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5295FE50265C7F5300AE007F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5295FE51265C7F5300AE007F /* movementTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = movementTest.entitlements; sourceTree = "<group>"; };
+		52A84F1C274D6BC800D67103 /* IceShard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IceShard.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5295FE43265C7F4E00AE007F /* GameScene.sks */,
 				5295FE45265C7F4E00AE007F /* Actions.sks */,
 				5295FE47265C7F4E00AE007F /* GameScene.swift */,
+				52A84F1C274D6BC800D67103 /* IceShard.sks */,
 				5295FE49265C7F4E00AE007F /* ViewController.swift */,
 				5295FE4B265C7F5300AE007F /* Assets.xcassets */,
 				5295FE4D265C7F5300AE007F /* Main.storyboard */,
@@ -131,6 +134,7 @@
 			files = (
 				5295FE44265C7F4E00AE007F /* GameScene.sks in Resources */,
 				5295FE4C265C7F5300AE007F /* Assets.xcassets in Resources */,
+				52A84F1D274D6BC800D67103 /* IceShard.sks in Resources */,
 				5295FE46265C7F4E00AE007F /* Actions.sks in Resources */,
 				5295FE4F265C7F5300AE007F /* Main.storyboard in Resources */,
 			);
