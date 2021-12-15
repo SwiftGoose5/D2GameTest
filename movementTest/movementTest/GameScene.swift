@@ -51,7 +51,7 @@ class GameScene: SKScene {
     }
     
     
-    func touchDown(atPoint pos : CGPoint) {
+    func touchDown(atPoint pos: CGPoint) {
         
         player.removeAllActions()
         
@@ -71,12 +71,21 @@ class GameScene: SKScene {
         }
     }
     
+    func rightDown(atPoint pos: CGPoint) {
+        let iceShard = IceShard(startPos: player.position, endPos: pos)
+        addChild(iceShard)
+    }
+    
     override func mouseDown(with event: NSEvent) {
         self.touchDown(atPoint: event.location(in: self))
     }
     
     override func mouseDragged(with event: NSEvent) {
         self.touchDown(atPoint: event.location(in: self))
+    }
+    
+    override func rightMouseDown(with event: NSEvent) {
+        self.rightDown(atPoint: event.location(in: self))
     }
     
     override func keyDown(with event: NSEvent) {

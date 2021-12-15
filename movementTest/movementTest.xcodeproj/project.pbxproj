@@ -15,6 +15,7 @@
 		5295FE4C265C7F5300AE007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5295FE4B265C7F5300AE007F /* Assets.xcassets */; };
 		5295FE4F265C7F5300AE007F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5295FE4D265C7F5300AE007F /* Main.storyboard */; };
 		52A84F1D274D6BC800D67103 /* IceShard.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52A84F1C274D6BC800D67103 /* IceShard.sks */; };
+		8B91EB902768F5AD008B2B30 /* IceShard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B91EB8F2768F5AD008B2B30 /* IceShard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5295FE50265C7F5300AE007F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5295FE51265C7F5300AE007F /* movementTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = movementTest.entitlements; sourceTree = "<group>"; };
 		52A84F1C274D6BC800D67103 /* IceShard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IceShard.sks; sourceTree = "<group>"; };
+		8B91EB8F2768F5AD008B2B30 /* IceShard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceShard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				5295FE41265C7F4E00AE007F /* AppDelegate.swift */,
+				5295FE49265C7F4E00AE007F /* ViewController.swift */,
+				5295FE47265C7F4E00AE007F /* GameScene.swift */,
+				8B91EB8F2768F5AD008B2B30 /* IceShard.swift */,
 				5295FE43265C7F4E00AE007F /* GameScene.sks */,
 				5295FE45265C7F4E00AE007F /* Actions.sks */,
-				5295FE47265C7F4E00AE007F /* GameScene.swift */,
 				52A84F1C274D6BC800D67103 /* IceShard.sks */,
-				5295FE49265C7F4E00AE007F /* ViewController.swift */,
 				5295FE4B265C7F5300AE007F /* Assets.xcassets */,
 				5295FE4D265C7F5300AE007F /* Main.storyboard */,
 				5295FE50265C7F5300AE007F /* Info.plist */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B91EB902768F5AD008B2B30 /* IceShard.swift in Sources */,
 				5295FE4A265C7F4E00AE007F /* ViewController.swift in Sources */,
 				5295FE48265C7F4E00AE007F /* GameScene.swift in Sources */,
 				5295FE42265C7F4E00AE007F /* AppDelegate.swift in Sources */,
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = movementTest/movementTest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = movementTest/Info.plist;
@@ -307,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = movementTest/movementTest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = movementTest/Info.plist;
