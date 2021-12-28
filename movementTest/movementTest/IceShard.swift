@@ -49,7 +49,10 @@ class IceShard: SKSpriteNode {
         let shardMove = SKAction.move(to: shardEndPoint, duration: Double(shardDuration))
         let shardFade = SKAction.fadeOut(withDuration: shardFadeTime)
         
-        run(SKAction.sequence([shardMove, shardFade, .removeFromParent()]))
+        let rand = Int.random(in: 1...3)
+        let shardSound = SKAction.playSoundFileNamed("icespike\(rand)", waitForCompletion: false)
+        
+        run(SKAction.sequence([shardSound, shardMove, shardFade, .removeFromParent()]))
     }
     
     required init?(coder aDecoder: NSCoder) {
